@@ -1,4 +1,5 @@
 using ActionFilterDemo;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,18 +11,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<MyDbContext>(opt => {
+builder.Services.AddDbContext<MyDbContext>(opt =>
+{
   string? connectionString = builder.Configuration.GetConnectionString("Default");
   opt.UseNpgsql(connectionString);
 });
 
+builder.Services.Configure<MvcOptions>(opt =>
+{
+  opt.Filters.Add<TransactionScopeFilter>();
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  app.UseSwagger();
+  app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
