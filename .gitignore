@@ -6,6 +6,7 @@
 project.lock.json
 project.fragment.lock.json
 artifacts/
+appsettings.Development.json
 
 # .NET Core - Visual Studio Code
 .vscode/
@@ -132,3 +133,4 @@ mono_crash.*
 
 # WebStorm
 .idea/
+appsettings.Development.json

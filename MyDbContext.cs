@@ -2,7 +2,8 @@
 
 namespace ActionFilterDemo;
 
-public class MyDbContext : DbContext
+public class MyDbContext(DbContextOptions<MyDbContext> options) : DbContext(options)
 {
-    
+    public DbSet<Book> Books {get; set;}
+    public DbSet<Person> People {get; set;}
 }

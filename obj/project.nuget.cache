@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rEMCQJr/QDkmhZzhrVBtEpzDquJ4iha6DaBYxAtoLtKdIKvO+B/MfWASN/IOXtqzxW+Ttq6dYRbYEP6uqIjjKA==",
+  "dgSpecHash": "RzqYH5RIDwM/1tMO0efAQWBXnSzwEvvfTwuolD0d8W9XMoXsPObEBfYO5J/z8Jts3BGf+ux81NIUeViWUmxdxg==",
   "success": true,
   "projectFilePath": "/Users/tianqilyu/DotnetProjects/ActionFilterDemo/ActionFilterDemo.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,8 @@
     "/Users/tianqilyu/.nuget/packages/microsoft.extensions.primitives/9.0.0-preview.2.24128.5/microsoft.extensions.primitives.9.0.0-preview.2.24128.5.nupkg.sha512",
     "/Users/tianqilyu/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/tianqilyu/.nuget/packages/mono.texttemplating/3.0.0-preview-0045-g9b6fc72764/mono.texttemplating.3.0.0-preview-0045-g9b6fc72764.nupkg.sha512",
+    "/Users/tianqilyu/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512",
+    "/Users/tianqilyu/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.0-preview.2/npgsql.entityframeworkcore.postgresql.9.0.0-preview.2.nupkg.sha512",
     "/Users/tianqilyu/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/tianqilyu/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/tianqilyu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
