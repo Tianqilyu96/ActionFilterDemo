@@ -116,9 +116,6 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# VS Code .vscode
-.vscode/
-
 # Rider
 .idea/
 *.sln.iml
